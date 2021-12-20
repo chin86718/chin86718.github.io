@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./reset.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <title>ChinTaiwan</title>
+</head>
+<style>
+  body{
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  .flex{
+    display: flex;
+  }
+  .row{
+    flex-wrap: wrap;
+  }
+  .justify-content-between{
+    justify-content: space-between;
+  }
+  .justify-content-center{
+    justify-content: center;
+  }
+  .justify-content-evenly{
+    justify-content: space-evenly;
+  }
+  .align-items-center{
+    align-items: center;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .position-fixed{
+    position: fixed;
+  }
+  .py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .py-28{
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+
+  .px-31{
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+  .mx-31{
+    margin-left: -31px;
+    margin-right: -31px;
+  }
+  .px-64{
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .px-92{
+    padding-left: 92px;
+    padding-right: 92px;
+  }
+  .px-105{
+    padding-left: 105px;
+    padding-right: 105px;
+  }
+  .pb-8{
+    padding-bottom: 8px;
+  }
+  .mb-16{
+    margin-bottom: 16px;
+  }
+  .mb-56{
+    margin-bottom: 56px;
+  }
+  .mb-192{
+    margin-bottom: 192px;
+  }
+  .bg-h100{
+    background-color: #fff;
+    height: 100px;
+  }
+  .logo{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 41px;
+    color: #616161;
+  }
+  .hide{
+    display: none;
+  }
+  nav>ul>li>a{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #9C9C9C;
+    text-decoration: none;
+  }
+  nav>ul>li>a:hover{
+    color: #242424;
+    text-decoration: underline;
+  }
+  .benner{
+    background-image: url(./img/benner.png);
+    height: 1200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .card0-text>h3{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    color: #151515;
+  }
+  .card0-text>p{
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 47px;
+    color: #343434;
+  }
+  .direction{
+    max-width: 224px;
+  }
+  .card{
+    background-color:#fff ;
+    overflow: hidden;
+    box-shadow: 0px 5px 30px -4px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+  }
+  .card-title{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #434343
+  }
+  .card-sub{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;
+  }
+  
+
+@media(min-width:768px){
+  .md-block{display: block;}
+}
+</style>
+<body>
+  <header class="bg-h100 flex align-items-center justify-content-between py-28">
+    <div class="logo px-64">
+      <h1>Chin!Taiwan!</h1>
+    </div>
+    <nav class="hide md-block flex">
+      <ul class="flex">
+        <li class="px-92"><a href="javascript:;">找景點</a></li>
+        <li class="px-92"><a href="javascript:;">找美食</a></li>
+        <li class="px-92"><a href="javascript:;">找活動</a></li>
+        <li class="px-92"><a href="javascript:;">找旅宿</a></li>
+        <li class="px-92"><a href="javascript:;">找交通</a></li>
+        <li class="px-92"><a href="javascript:;">我的行程</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="benner mb-192"></section>
+    <section class="flex align-items-center">
+      <div class="card0 px-105">
+        <div class="card0-text">
+          <h3 class="mb-16">不知道要去哪嗎？</h3>
+          <p class="mb-56">看看大家都去哪裡吧！</p>
+        </div>
+        <div class="mx-31">
+          <img class="px-31" src="./img/Direction-left.png" alt="">
+          <img class="px-31" src="./img/Direction-right.png" alt="">
+        </div>
+      </div>
+      <div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/s1.png" alt="">
+          </div>
+          <div>
+            <div class="py-20">
+              <p class="card-title pb-8">小琉球自淺之旅</p>
+              <div class="card-sub">
+                <div class="flex pb-8">
+                  <img src="./img/time-Icon.png" alt="">
+                  <p>2021年12月03日-2021年12月06日</p>
+                </div>
+                <div class="flex">
+                  <img src="./img/location-icon.png" alt="">
+                  <p>屏東縣</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section>
+
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>
